@@ -1,0 +1,21 @@
+@media screen and (max-width: 1080px)
+{
+.last-section-wrapper{
+		display: flex;
+		flex-direction: column;
+		height: 80%;
+}
+}
+@media screen and (max-width: 1080px)
+{
+.grid-container{
+		display: grid;
+		grid-template-columns: auto;
+		height: 90%
+}
+.footer-wrapper{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+}

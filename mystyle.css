@@ -1,0 +1,185 @@
+body{
+	margin:0;
+	font-family: 'Roboto', 'sans-serif';
+}
+html{
+	scroll-behavior: smooth;
+}
+.navigation-wrapper{
+	display:flex;
+	height:140px;
+	background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(210,44,146,1) 18%, rgba(180,47,120,1) 20%, rgba(182,46,117,1) 21%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);color:#FFFFFF;
+	justify-content: space-between;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.navigation-wrapper > .left-column > .icon i{
+	font-size:4em;
+	padding-left:10px;
+	color: #ffffff;
+
+}
+.navigation-wrapper > .left-column i:hover{
+	
+	color: silver;
+}
+.navigation-wrapper > .left-column > .text h2{
+	font-size: 2em;
+	color: white;
+}
+.navigation-wrapper > .left-column h2:hover{
+	color: silver;
+}
+.nav-link-container{
+	display: flex;
+	align-items: center;
+}
+.nav-link-container > .nav-link a{
+	text-decoration: none;
+	color:#ffffff;
+	font-size: 1.3em;
+	margin:15px;
+	text-align: center;
+}
+.nav-link-container > .nav-link a:hover{
+    text-decoration: none;
+	color:black;
+	font-size: 1.4em;
+}
+.middle-section-wrapper{
+	display:flex;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+}
+.middle-section-wrapper > .middle-column h1{
+
+	font-size: 3.5em;
+
+}
+.middle-section-wrapper > .middle-column h2{
+	color:#696969;
+}
+.bottom-column{
+text-align: center;
+}
+.last-section-wrapper{
+   display:flex; 
+   height:150px;
+
+   align-items: center;
+   text-align: center;
+   background: rgb(131,58,180);
+   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(210,44,146,1) 18%, rgba(180,47,120,1) 20%, rgba(182,46,117,1) 21%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);color: white;
+   color:white;
+   padding-left:250px;
+   padding-right: 250px;
+   padding-bottom:50px; 
+   padding-top: 50px;
+
+}
+.last-section-wrapper > .last-column > .icon1 i{
+	font-size:3em;
+	
+}
+.last-section-wrapper > .last-column i:hover{
+	color: #765d69;
+}
+
+.last-section-wrapper > .last-column1 > .icon2 i{
+	font-size:3em;
+	
+}
+.last-section-wrapper > .last-column1 i:hover{
+	color: #00e640;
+}
+.last-section-wrapper > .last-column2 > .icon3 i{
+	font-size: 3em;
+	
+}
+.last-section-wrapper > .last-column2 i:hover{
+	color: #ffcb05;
+}
+.last-bottom-column{
+   text-align: center;
+   padding-left: 50px;
+}
+.grid-container{
+   display: grid;
+   height: 320px;
+   grid-template-columns: auto auto auto;
+   background: rgb(131,58,180);
+   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(210,44,146,1) 18%, rgba(180,47,120,1) 20%, rgba(182,46,117,1) 21%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);color: white;
+   grid-gap: 40px;
+   padding-left: 150px;
+   padding-right: 150px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   text-align: center;
+}
+.grid-container > .grid-column{
+	text-align: center;
+}
+.grid-container > .grid-column1 > .icon4 i{
+    font-size: 3em;
+}
+.grid-container > .grid-column1 i:hover{
+    color: #d35400;
+}
+.grid-container > .grid-column2 > .icon5 i{
+   font-size: 3em;
+}
+.grid-container > .grid-column2 i:hover{
+	color: #67809f;
+}
+.grid-container > .grid-column3 > .icon6 i{
+   font-size: 3em;
+}
+.grid-container > .grid-column3  i:hover{
+	color: #765d69;
+}
+.grid-container > .grid-column4 > .icon7 i{
+   font-size: 3em;
+}
+.grid-container > .grid-column4 i:hover{
+	color: #5333ed;
+}
+.grid-container > .grid-column5 > .icon8 i{
+   font-size: 3em;	
+}
+.grid-container > .grid-column5 i:hover{
+	color: #00e640;
+}
+.grid-container > .grid-column6 > .icon9 i{
+   font-size:3em;
+}
+.grid-container > .grid-column6 i:hover{
+	color: #95a5a6;
+}
+.footer-wrapper{
+	margin: 0;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: grey;
+	margin-top: 80px;
+	height: 108px;
+}
+.footer-wrapper > .footer-column{
+	text-align: center;
+}
+.footer-wrapper > .footer-column h4{
+	color: white;
+	font-size: 1em; 
+}
+.footer-wrapper > .footer-column i{
+	font-size: 2em;
+	margin-bottom: 20px;
+	color: white;
+	padding: 8px;
+}
+.footer-wrapper > .footer-column i:hover{
+	color: #22a7f0;
+}
